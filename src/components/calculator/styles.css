@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 3em;
+    height: 3em;
+    border: none;
+    border-radius: 2em;
+    font-size: 1.5em;
+    margin: 0.3em;
+    cursor: pointer;
+}
+
+.wrapper {
+    background: rgb(0, 0, 0);
+    border-radius: 1em;
+    padding: 1em;
+    border-bottom: 10em;
+}
+
+.orange {
+    background-color: #ff9500;
+    color: #fff;
+}
+
+.gray {
+    background-color: #505050;
+    color: #fff;
+}
+
+.result {
+    color: #fff;
+    padding-right: 0.6em;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 3.5em;
+}
